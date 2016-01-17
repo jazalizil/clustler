@@ -1,0 +1,8 @@
+{
+  "dbHost": "mongodb://localhost/distributedComputingData",
+  "serviceHost": "http://localhost:3000",
+  "uuid": {
+    "6666": "042387ac-d15d-4756-b536-0d66d3af9004",
+    "6667": "01d52ab9-6048-4304-86e4-270aec0bf814"
+  }
+}

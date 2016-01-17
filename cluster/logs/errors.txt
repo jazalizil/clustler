@@ -1,0 +1,4 @@
+[15/Jan/2016:01:10:01 +0000] [ERROR] Mongoose: mongodb://localhost/distributedComputingData disconnected
+[15/Jan/2016:01:10:01 +0000] [ERROR] Mongoose: Failed to connect to DB mongodb://localhost/distributedComputingData on startup  { [MongoError: connect ECONNREFUSED 127.0.0.1:27017]
+  name: 'MongoError',
+  message: 'connect ECONNREFUSED 127.0.0.1:27017' }

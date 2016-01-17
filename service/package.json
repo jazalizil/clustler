@@ -1,0 +1,21 @@
+{
+  "name": "serverservice",
+  "version": "0.0.1",
+  "private": true,
+  "scripts": {
+    "start": "mkdir logs 2> /dev/null; node ./bin/www > logs/logs.txt 2> logs/errors.txt &"
+  },
+  "dependencies": {
+    "async": "^1.5.2",
+    "body-parser": "^1.13.3",
+    "console-stamp": "^0.2.0",
+    "express": "^4.13.3",
+    "kerberos": "0.0.17",
+    "mongoose": "^4.3.5",
+    "morgan": "^1.6.1",
+    "multer": "^1.1.0",
+    "nodemon": "latest",
+    "socket.io": "^1.4.4",
+    "request": "latest"
+  }
+}

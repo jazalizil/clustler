@@ -1,0 +1,12 @@
+[15/Jan/2016:07:19:43 +0000] [ERROR] Error: socket hang up
+[15/Jan/2016:07:19:43 +0000] [ERROR] Error: socket hang up
+[15/Jan/2016:07:19:49 +0000] [ERROR] [object Object]
+[15/Jan/2016:07:19:51 +0000] [ERROR] [object Object]
+[15/Jan/2016:07:19:53 +0000] [ERROR] [object Object]
+[15/Jan/2016:07:19:54 +0000] [ERROR] [object Object]
+[15/Jan/2016:07:19:55 +0000] [ERROR] [object Object]
+[15/Jan/2016:07:19:55 +0000] [ERROR] [object Object]
+[15/Jan/2016:07:19:55 +0000] [ERROR] [object Object]
+[15/Jan/2016:07:19:56 +0000] [ERROR] [object Object]
+[15/Jan/2016:07:26:19 +0000] [ERROR] Error: socket hang up
+[15/Jan/2016:07:26:19 +0000] [ERROR] Error: socket hang up

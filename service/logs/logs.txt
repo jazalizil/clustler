@@ -1,0 +1,56 @@
+[15/Jan/2016:07:18:16 +0000] [LOG]   Express server listening on port 3000
+[15/Jan/2016:07:18:16 +0000] [LOG]   Mongoose connected on server mongodb://localhost/distributedComputingService
+[15/Jan/2016:07:18:21 +0000] [LOG]   [SOCKET] hello received from socket /#cMBIggAtGZbxiYDVAAAA on address 127.0.0.1:6666 with clusterID 042387ac-d15d-4756-b536-0d66d3af9004
+[15/Jan/2016:07:18:21 +0000] [LOG]   [SOCKET] hello received from socket /#250hgoPOiNgzC1G5AAAB on address 127.0.0.1:6667 with clusterID 01d52ab9-6048-4304-86e4-270aec0bf814
+::1 - - [15/Jan/2016:07:18:25 +0000] "GET /list/ HTTP/1.1" 304 -
+::1 - - [15/Jan/2016:07:19:15 +0000] "GET /list/ HTTP/1.1" 304 -
+::1 - - [15/Jan/2016:07:19:43 +0000] "POST /upload/ HTTP/1.1" 200 362
+[15/Jan/2016:07:19:43 +0000] [LOG]   [SOCKET] /#cMBIggAtGZbxiYDVAAAA disconnected
+[15/Jan/2016:07:19:43 +0000] [LOG]   [SOCKET] /#250hgoPOiNgzC1G5AAAB disconnected
+::1 - - [15/Jan/2016:07:19:49 +0000] "POST /upload/ HTTP/1.1" 442 16
+::1 - - [15/Jan/2016:07:19:51 +0000] "POST /upload/ HTTP/1.1" 442 16
+::1 - - [15/Jan/2016:07:19:53 +0000] "POST /upload/ HTTP/1.1" 442 16
+::1 - - [15/Jan/2016:07:19:54 +0000] "POST /upload/ HTTP/1.1" 442 16
+::1 - - [15/Jan/2016:07:19:55 +0000] "POST /upload/ HTTP/1.1" 442 16
+::1 - - [15/Jan/2016:07:19:55 +0000] "POST /upload/ HTTP/1.1" 442 16
+::1 - - [15/Jan/2016:07:19:56 +0000] "POST /upload/ HTTP/1.1" 442 16
+::1 - - [15/Jan/2016:07:19:56 +0000] "POST /upload/ HTTP/1.1" 442 16
+::1 - - [15/Jan/2016:07:24:46 +0000] "GET /list/ HTTP/1.1" 304 -
+::1 - - [15/Jan/2016:07:24:52 +0000] "GET /list/ HTTP/1.1" 304 -
+[15/Jan/2016:07:25:07 +0000] [LOG]   [SOCKET] hello received from socket /#PtG7LKOA8WfznQfFAAAC on address 127.0.0.1:6667 with clusterID 01d52ab9-6048-4304-86e4-270aec0bf814
+[15/Jan/2016:07:25:07 +0000] [LOG]   [SOCKET] hello received from socket /#yopHAEhtXW6KaIoVAAAD on address 127.0.0.1:6666 with clusterID 042387ac-d15d-4756-b536-0d66d3af9004
+::1 - - [15/Jan/2016:07:26:03 +0000] "GET /list/ HTTP/1.1" 304 -
+[15/Jan/2016:07:26:04 +0000] [LOG]   prepare to ping http://127.0.0.1:6667/ping/56988dea735d060a10586a7c
+[15/Jan/2016:07:26:04 +0000] [LOG]   prepare to ping http://127.0.0.1:6666/ping/56988dea82f7770f102931d1
+::1 - - [15/Jan/2016:07:26:04 +0000] "GET /download/56988deaf5d9d38910740949 HTTP/1.1" 304 -
+::1 - - [15/Jan/2016:07:26:18 +0000] "POST /upload/ HTTP/1.1" 200 421
+[15/Jan/2016:07:26:19 +0000] [LOG]   [SOCKET] /#yopHAEhtXW6KaIoVAAAD disconnected
+[15/Jan/2016:07:26:19 +0000] [LOG]   [SOCKET] /#PtG7LKOA8WfznQfFAAAC disconnected
+[15/Jan/2016:07:26:49 +0000] [LOG]   [SOCKET] hello received from socket /#3CBy4g2xT5PW1i0EAAAE on address 127.0.0.1:6666 with clusterID 042387ac-d15d-4756-b536-0d66d3af9004
+[15/Jan/2016:07:26:49 +0000] [LOG]   [SOCKET] hello received from socket /#ztT4oAeLAiV8YvT9AAAF on address 127.0.0.1:6667 with clusterID 01d52ab9-6048-4304-86e4-270aec0bf814
+::1 - - [15/Jan/2016:07:26:52 +0000] "POST /upload/ HTTP/1.1" 200 345
+[15/Jan/2016:07:26:53 +0000] [LOG]   file 56989f3cc623d21f1518041d uploaded with success on cluster 042387ac-d15d-4756-b536-0d66d3af9004
+[15/Jan/2016:07:26:53 +0000] [LOG]   file 56989f3cc623d21f1518041d uploaded with success on cluster 01d52ab9-6048-4304-86e4-270aec0bf814
+::1 - - [15/Jan/2016:07:27:42 +0000] "GET /list/ HTTP/1.1" 200 785
+::1 - - [15/Jan/2016:07:28:57 +0000] "GET /list/ HTTP/1.1" 304 -
+::1 - - [15/Jan/2016:07:29:04 +0000] "GET /list/ HTTP/1.1" 304 -
+[15/Jan/2016:07:29:07 +0000] [LOG]   prepare to ping http://127.0.0.1:6666/ping/56989f3cd3099c7915aca6f4
+[15/Jan/2016:07:29:07 +0000] [LOG]   prepare to ping http://127.0.0.1:6667/ping/56989f3c248e2d781589f67e
+::1 - - [15/Jan/2016:07:29:07 +0000] "GET /download/56989f3cc623d21f1518041d HTTP/1.1" 200 397
+::1 - - [15/Jan/2016:07:29:25 +0000] "POST /upload/ HTTP/1.1" 200 433
+[15/Jan/2016:07:29:25 +0000] [LOG]   file 56989fd5c623d21f1518041e uploaded with success on cluster 042387ac-d15d-4756-b536-0d66d3af9004
+[15/Jan/2016:07:29:26 +0000] [LOG]   file 56989fd5c623d21f1518041e uploaded with success on cluster 01d52ab9-6048-4304-86e4-270aec0bf814
+[15/Jan/2016:07:29:28 +0000] [LOG]   prepare to ping http://127.0.0.1:6666/ping/56989fd5d3099c7915aca6f5
+[15/Jan/2016:07:29:28 +0000] [LOG]   prepare to ping http://127.0.0.1:6667/ping/56989fd5248e2d781589f67f
+::1 - - [15/Jan/2016:07:29:28 +0000] "GET /download/56989fd5c623d21f1518041e HTTP/1.1" 200 409
+[15/Jan/2016:07:30:15 +0000] [LOG]   [SOCKET] /#3CBy4g2xT5PW1i0EAAAE disconnected
+[15/Jan/2016:07:30:18 +0000] [LOG]   prepare to ping http://127.0.0.1:6667/ping/56989fd5248e2d781589f67f
+::1 - - [15/Jan/2016:07:30:18 +0000] "GET /download/56989fd5c623d21f1518041e HTTP/1.1" 200 249
+[15/Jan/2016:07:30:31 +0000] [LOG]   [SOCKET] hello received from socket /#3fpXkJr3M1Zzd5wjAAAG on address 127.0.0.1:6666 with clusterID 042387ac-d15d-4756-b536-0d66d3af9004
+[15/Jan/2016:07:30:35 +0000] [LOG]   prepare to ping http://127.0.0.1:6667/ping/56989fd5248e2d781589f67f
+[15/Jan/2016:07:30:35 +0000] [LOG]   prepare to ping http://127.0.0.1:6666/ping/56989fd5d3099c7915aca6f5
+::1 - - [15/Jan/2016:07:30:35 +0000] "GET /download/56989fd5c623d21f1518041e HTTP/1.1" 200 409
+[15/Jan/2016:07:30:46 +0000] [LOG]   [SOCKET] /#3fpXkJr3M1Zzd5wjAAAG disconnected
+[15/Jan/2016:07:30:49 +0000] [LOG]   [SOCKET] /#ztT4oAeLAiV8YvT9AAAF disconnected
+::1 - - [15/Jan/2016:07:34:51 +0000] "GET /list/ HTTP/1.1" 200 1181
+::1 - - [15/Jan/2016:07:34:56 +0000] "GET /list/ HTTP/1.1" 304 -

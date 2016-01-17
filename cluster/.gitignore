@@ -1,0 +1,7 @@
+node_modules/
+public/components
+.sass-cache
+uploads/
+gulpfile.js
+.editorconfig
+logs/

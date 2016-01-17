@@ -1,0 +1,25 @@
+#!/usr/bin/env node
+var app = require('../app');
+var io = require('socket.io-client');
+var config = require('../config/config');
+if (!config.uuid[process.env.PORT.toString()]) {
+  config.uuid[process.env.PORT.toString()] = config.uuid[0] || require('node-uuid').v4();
+  require('fs').writeFile('./config/config.json', JSON.stringify(config, null, 2), function(err){
+    if (err) console.error(err);
+  })
+}
+
+app.set('port', process.env.PORT || 3000);
+
+var server = app.listen(app.get('port'), function() {
+  console.log('Express server listening on port ' + server.address().port);
+});
+
+var socket = io.connect(config.serviceHost);
+
+socket.on('hello', function(){
+  socket.emit('ehlo', {
+    id: config.uuid[process.env.PORT],
+    port: process.env.PORT
+  })
+});
